@@ -1,4 +1,4 @@
-local gamelist_content = game:HttpGet("https://raw.githubusercontent.com/Ken-884/roblox/refs/heads/main/gamelist.lua")
+local gamelist_content = game:HttpGet("https://raw.githubusercontent.com/Mentos4/Roblox/refs/heads/main/gamelist.lua")
 if not gamelist_content then return end
 
 local success, Games = pcall(function()
